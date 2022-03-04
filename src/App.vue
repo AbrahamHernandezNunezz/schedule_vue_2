@@ -38,19 +38,19 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
+      <ContactList/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import ContactList from './components/contacts/ContactList.vue';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    ContactList,
   },
 
   data: () => ({
